@@ -8,7 +8,7 @@
 
 - Process: Extract raw data → Transform to match ecommerce schema → Load into Supabase tables.
 
--Automation: Scheduled ETL runs with error handling and logging.
+- Automation: Scheduled ETL runs with error handling and logging.
 
 - Technologies: Python/Node.js, Supabase client libraries, SQL.
 
