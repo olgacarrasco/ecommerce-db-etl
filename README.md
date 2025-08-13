@@ -1,16 +1,16 @@
 
 # ETL Project Overview
-- Goal: Automate data loading and transformation into the existing ecommerce-db Supabase database.
+- **Goal**: Automate data loading and transformation into the existing ecommerce-db Supabase database.
 
-- Database: Supabase PostgreSQL instance named ecommerce-db.
+- **Database**: Supabase PostgreSQL instance named ecommerce-db.
 
-- Data Sources: CSV files, APIs, or external databases.
+- **Data Sources**: CSV files, APIs, or external databases.
 
-- Process: Extract raw data → Transform to match ecommerce schema → Load into Supabase tables.
+- **Process**: Extract raw data → Transform to match ecommerce schema → Load into Supabase tables.
 
-- Automation: Scheduled ETL runs with error handling and logging.
+- **Automation**: Scheduled ETL runs with error handling and logging.
 
-- Technologies: Python/Node.js, Supabase client libraries, SQL.
+- **Technologies**: Python, SQL, Supabase client libraries, Airflow
 
 # Steps
 - Connect to Supabase ecommerce-db using API credentials.
