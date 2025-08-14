@@ -41,13 +41,19 @@ ecommerce-db-etl/
 │   └── etl_dag.py          # Airflow DAG for automated ETL
 
 ├── etl/
+
 │   └── etl_utils.py        # ETL utility functions
+
 ├── notebooks/
+
 │   └── etl_demo.ipynb      # Demo notebook for testing
+
 ├── data/
+
 │   ├── customers.csv       # Sample CSV data
 │   ├── products.csv
 │   └── orders.csv
+
 ├── config_example.py       # Example config for DB credentials
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
