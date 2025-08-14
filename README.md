@@ -35,8 +35,11 @@ The workflow supports scheduling, error handling, and logging to ensure reliable
 
 ## Project Structure
 ecommerce-db-etl/
+
 ├── dags/
+
 │   └── etl_dag.py          # Airflow DAG for automated ETL
+
 ├── etl/
 │   └── etl_utils.py        # ETL utility functions
 ├── notebooks/
