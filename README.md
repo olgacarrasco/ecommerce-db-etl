@@ -36,27 +36,20 @@ The workflow supports scheduling, error handling, and logging to ensure reliable
 ## Project Structure
 ecommerce-db-etl/
 
-├── dags/
-
-│   └── etl_dag.py          # Airflow DAG for automated ETL
-
-├── etl/
-
-│   └── etl_utils.py        # ETL utility functions
-
-├── notebooks/
-
-│   └── etl_demo.ipynb      # Demo notebook for testing
-
-├── data/
-
-│   ├── customers.csv       # Sample CSV data
-│   ├── products.csv
-│   └── orders.csv
-
-├── config_example.py       # Example config for DB credentials
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+- **ecommerce-db-etl/**
+  - **dags/**
+    - `etl_dag.py` – Airflow DAG for automated ETL
+  - **etl/**
+    - `etl_utils.py` – ETL utility functions
+  - **notebooks/**
+    - `etl_demo.ipynb` – Demo notebook for testing
+  - **data/**
+    - `customers.csv` – Sample CSV data
+    - `products.csv`
+    - `orders.csv`
+  - `config_example.py` – Example config for DB credentials
+  - `requirements.txt` – Python dependencies
+  - `README.md` – Project documentation
 
 ---
 
