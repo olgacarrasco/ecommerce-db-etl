@@ -1,6 +1,6 @@
 # Overview
-This project automates an ETL (Extract, Transform, Load) pipeline for an e-commerce database using **Apache Airflow**.  
-It extracts data from CSV files, APIs, or external databases, transforms it to match the `ecommerce-db` schema, and loads it into a **Supabase PostgreSQL** instance.  
+This project automates an ETL pipeline for an e-commerce database using Apache Airflow.  
+It extracts data from CSV files, APIs, or external databases, transforms it to match the `ecommerce-db` schema, and loads it into a Supabase PostgreSQL instance.  
 
 The workflow supports scheduling, error handling, and logging to ensure reliable and automated data updates.
 
