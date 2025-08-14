@@ -47,7 +47,6 @@ ecommerce-db-etl/
     - `customers.csv` – Sample CSV data
     - `products.csv`
     - `orders.csv`
-  - `config_example.py` – Example config for DB credentials
   - `requirements.txt` – Python dependencies
   - `README.md` – Project documentation
 
@@ -56,8 +55,7 @@ ecommerce-db-etl/
 ## How to Run
 
 1. **Set up configuration**  
-   - Copy `config_example.py` to `config.py`  
-   - Fill in your real Supabase credentials (**never commit them**).  
+   - Fill in your real Supabase credentials
 
 2. **Prepare data**  
    - Place your CSV files in the `data/` folder.  
