@@ -58,7 +58,7 @@ ecommerce-db-etl/
    - Fill in your real Supabase credentials
 
 2. **Prepare data**  
-   - Place your CSV files in the `data/` folder.  
+   - Place your CSV files in a dedicated data folder.  
 
 3. **Start Apache Airflow**  
    - Add `etl_dag.py` to your Airflow DAGs folder.  
