@@ -26,7 +26,7 @@ The workflow supports scheduling, error handling, and logging to ensure reliable
 ---
 
 ## Technologies
-- Python (**pandas**, **psycopg2**)  
+- Python (**sys**, **os**, **pandas**, **psycopg2**,**sqlalchemy**) 
 - Apache Airflow  
 - Supabase client libraries / PostgreSQL  
 - Jupyter Notebook (for demo & testing)  
